@@ -1,5 +1,5 @@
 all: 
-	gcc main.c -o mkf
+	gcc mkf.c -o mkf
 
 install:
 	make
