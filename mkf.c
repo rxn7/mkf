@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-static void mkf(const char* path) {
+static void mkf(const char *path) {
         FILE* file;
         file = fopen(path, "w");
 
@@ -12,7 +12,7 @@ static void mkf(const char* path) {
         fclose(file);
 }
 
-int main(int argc, const char** argv) {
+int main(int argc, const char **argv) {
         if(argc < 2) {
                 puts("Usage: mkf <files(s)>");
                 return 1; 
