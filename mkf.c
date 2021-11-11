@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 static void mkf(const char *path) {
-        FILE* file;
+        FILE *file;
         file = fopen(path, "w");
 
         if(!file) {
