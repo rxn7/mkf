@@ -5,7 +5,7 @@ static void mkf(const char *path) {
         file = fopen(path, "w");
 
         if(!file) {
-                perror("Failed to create file: ");
+                perror("Failed to create file");
                 return;
         }
 
